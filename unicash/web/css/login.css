@@ -1,3 +1,14 @@
+@media (max-width: 600px) {
+    #logoVerde {
+        width: 150px;
+        height: 35px;
+    }
+
+    div.col-md-9 form-login {
+        background-color: rosybrown;
+    }    
+}
+
 body {
     background-image: url("../img/background.png");
     background-size: 100%;
@@ -6,38 +17,77 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.row {
+.logo-verde {
     margin-top: 32px;
     margin-left: 10px;
 }
 
-.col-md-12 {
-    background-color: #71983D;
+.form-login {
+    background-color: rgba(113, 152, 61, 0.6);
     width: 25%;
     height: 100%;
     float: right;
+    margin-bottom: auto;
     margin-right: 100px;
     margin-top: 10%;
-    opacity: 60%;
+    border-radius: 8px;
 }
 
-form {
-    opacity: 100%;
+.logoBranca {
+    margin-left: 33%;
+    margin-top: 10%;
 }
 
-.container-fluid.col-md-12.row.logoBranca {
-    margin-bottom: auto;
-}
-
-input{
+#firstName {
     margin-top: 30px;
-    padding: 1%;
+    margin-left: 12%;
+    padding: 2%;
     width: 75%;
+    border-radius: 5px;
+    border-style: none;
 }
 
-button {
+#userPassword {
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-left: 12%;
+    padding: 2%;
+    width: 75%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#signIn {
+    margin-top: 30px;
+    margin-left: 12%;
+    margin-bottom: 30px;
+    padding: 2%;
     background-color: #3D9798;
     color: white;
+    width: 75%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#signUp {
+    color: white;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    padding-right: 5%;
+    font-size: small;
+}
+
+#signUp:hover {
+    color: #3D9798;
+    text-decoration: none;
+}
+
+#forgetPassword {
+    color: white;
+    margin-bottom: 50px;
+    font-size: small;
+}
+
+#forgetPassword:hover {
+    color: #3D9798;
+    text-decoration: none;
 }
