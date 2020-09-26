@@ -24,23 +24,19 @@ body {
 
 .form-login {
     background-color: rgba(113, 152, 61, 0.6);
-    width: 25%;
-    height: 100%;
+    padding: 40px;
     float: right;
-    margin-bottom: auto;
-    margin-right: 100px;
-    margin-top: 10%;
     border-radius: 8px;
+}
+form {
+    text-align: center;
 }
 
 .logoBranca {
-    margin-left: 33%;
-    margin-top: 10%;
+    margin: 0 auto;
 }
 
 #firstName {
-    margin-top: 30px;
-    margin-left: 12%;
     padding: 2%;
     width: 75%;
     border-radius: 5px;
@@ -48,9 +44,8 @@ body {
 }
 
 #userPassword {
-    margin-top: 30px;
-    margin-left: 12%;
     padding: 2%;
+    margin-top: 15px;
     width: 75%;
     border-radius: 5px;
     border-style: none;
@@ -58,7 +53,6 @@ body {
 
 #signIn {
     margin-top: 30px;
-    margin-left: 12%;
     margin-bottom: 30px;
     padding: 2%;
     background-color: #3D9798;
@@ -68,26 +62,29 @@ body {
     border-style: none;
 }
 
+#signUp li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+#signUp li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#signUp li a:hover {
+    color: #3D9798;
+    text-decoration: none;
+}
+
 #signUp {
     color: white;
-    margin-left: 15%;
-    margin-bottom: 10%;
-    padding-right: 5%;
-    font-size: small;
-}
-
-#signUp:hover {
-    color: #3D9798;
+    text-align: center;
     text-decoration: none;
-}
-
-#forgetPassword {
-    color: white;
-    margin-bottom: 50px;
-    font-size: small;
-}
-
-#forgetPassword:hover {
-    color: #3D9798;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
