@@ -2,9 +2,42 @@ body {
     background-image: url("../img/background.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    bac
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container-fluid.row.img {
+.row {
+    margin-top: 32px;
+    margin-left: 10px;
+}
 
+.col-md-12 {
+    background-color: #71983D;
+    width: 25%;
+    height: 100%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10%;
+    opacity: 60%;
+}
+
+form {
+    opacity: 100%;
+}
+
+.container-fluid.col-md-12.row.logoBranca {
+    margin-bottom: auto;
+}
+
+input{
+    margin-top: 30px;
+    padding: 1%;
+    width: 75%;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    background-color: #3D9798;
+    color: white;
 }
