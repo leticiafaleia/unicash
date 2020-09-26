@@ -15,23 +15,27 @@ and open the template in the editor.
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
-
-                <img src="../web/img/logo.png" class="row" width="250" height="50"></div>
-                <div class="col-md-9"></div>
-
+        <div class="container-fluid logo">
+            <div class="row">
+                <div class="col-md-3 logo-verde">
+                    <img src="../web/img/logo.png" id="logoVerde" width="250" height="50"></div>
+                    <div class="col-md-9"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid form">
             <div class="row">
-                <div class="col-md-9"></div>
-                 <div class="col-md-12">
+                <div class="col-md-3"></div>
+                 <div class="col-md-9 form-login">
                     <form>
                         <img src="../web/img/logo-branca2.png" class="logoBranca" width="100px" height="100px">
                         <input type="text" id="firstName" name="fname" placeholder="e-mail"><br>
                         <input type="password" id="userPassword" name="pass" placeholder="senha"><br>
-                        <button type="submit">entrar</button>
+                        <button type="submit" id="signIn">entrar</button>
                     </form>
+                        <a href="#" id="signUp">me cadastrar</a>
+                        <a href="#" id="forgetPassword">esqueci minha senha</a>
                  </div>
             </div>
 
