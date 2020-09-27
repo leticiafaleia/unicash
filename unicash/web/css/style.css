@@ -6,7 +6,17 @@
 .menu-top{
     background-color: #A4BC83;
 }
-
+.novo a{
+    background-color: #3D9798;
+    border-radius: 15px;
+    padding: 5px !important;
+    margin-top:10px;
+}
+.novo a:hover{
+    border: none;
+    background-color: #fff !important;
+    color: #3D9798 !important;
+}
 .menu-top .logo img{
     width:250px;
     height: auto;
