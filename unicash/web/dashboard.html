@@ -17,32 +17,9 @@ and open the template in the editor.
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <!-- <div class="container-fluid menu-top">
-            <div class="row">
-                <div class="col-md-3 logo"><img src="img/logo-branca.png" alt=""></div>
-                <div class="col-md-6 menu">
-                    <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Meus dados</a></li>
-                        <li><a href="#">Relatórios</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 details">
-                    <div class="perfil">
-                        <div class="image">
-                            <ul>
-                                <li class="logout"><a href="#"><img src="img/logout.png" alt=""></a></li>
-                                <li>Olá, Martin</li>
-                                <li> <img src="img/martin.jpeg" alt=""></li>
-                            </ul>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        
+       <!-- ====================================
+                    Menu
+       ==================================== -->
         <nav class="navbar navbar-default ">
             <div class="container-fluid menu-top">
               <!-- Brand and toggle get grouped for better mobile display -->
@@ -75,5 +52,79 @@ and open the template in the editor.
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
           </nav>
+
+  <!-- ====================================
+                    Cards
+       ==================================== -->
+       <div class="container">
+           <div class="row cards">
+               <div class="col-md-4 card1 cardConfig">
+                   <ul>
+                       <li><img src="img/cash.png" alt=""></li>
+                       <li class="title">Receita</li>
+                       <li class="money">R$ 68,00</li>
+                   </ul>
+               </div>
+               <div class="col-md-4 card2 cardConfig">
+                <ul>
+                    <li><img src="img/pig.png" alt=""></li>
+                    <li class="title">Reserva</li>
+                    <li class="money">R$ 270,00</li>
+                </ul>
+               </div>
+               <div class="col-md-4 card3 cardConfig">
+                <ul>
+                    <li><img src="img/cart.png" alt=""></li>
+                    <li class="title">Despesas</li>
+                    <li class="money">R$ 900,00</li>
+                </ul>
+               </div>
+           </div>
+       </div>
+    <!-- ====================================
+                    Table
+       ==================================== -->
+       <div class="container tabela">
+           <div class="row">
+               <div class="col-md-12">
+                   <table class="table table-light">
+                       <thead>
+                           <tr>
+                               <td>descrição</td>
+                               <td>data</td>
+                               <td>valor</td>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <td>Bolsa estágio</td>
+                               <td>05/08/2020</td>
+                               <td>+ R$ 1.200,00</td>
+                           </tr>
+                        <tr>
+                            <td>Mensalidade da faculdade</td>
+                            <td>05/08/2020</td>
+                            <td>- R$ 760,00</td>
+                        </tr>
+                        <tr>
+                            <td>Burger King</td>
+                            <td>08/08/2020</td>
+                            <td>- R$ 33,00</td>
+                        </tr>
+                        <tr>
+                            <td>Renner</td>
+                            <td>16/08/2020</td>
+                            <td>- R$ 289,00</td>
+                        </tr>
+                        <tr>
+                            <td>Reservado</td>
+                            <td>16/08/2020</td>
+                            <td>* R$ 50,00</td>
+                        </tr>
+                       </tbody>
+                   </table>
+               </div>
+           </div>
+       </div>
     </body>
 </html>
