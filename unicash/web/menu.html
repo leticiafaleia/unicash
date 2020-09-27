@@ -1,25 +1,33 @@
 <link rel="stylesheet" href="css/style.css">
-<div class="container-fluid menu-top">
-    <div class="row">
-        <div class="col-md-3 logo"><img src="img/logo-branca.png" alt=""></div>
-        <div class="col-md-6 menu">
-            <ul>
+<nav class="navbar navbar-default ">
+    <div class="container-fluid menu-top">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" href="#"><img src="img/logo-branca.png" alt=""></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+        <div class="centerMenu">
+            <ul class="nav navbar-nav">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Meus dados</a></li>
                 <li><a href="#">Relatórios</a></li>
             </ul>
         </div>
-        <div class="col-md-3 details">
-            <div class="perfil">
-                <div class="image">
-                    <ul>
-                        <li class="logout"><a href="#"><img src="img/logout.png" alt=""></a></li>
-                        <li>Olá, Martin</li>
-                        <li> <img src="img/martin.jpeg" alt=""></li>
-                    </ul>
-                   
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+       <div class="profile">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="logout"><a href="#"><img src="img/logout.png" alt=""></a></li>
+            <li class="hello">Olá, Martin</li>
+            <li class="image"> <img src="img/martin.jpeg" alt=""></li>
+        </ul>
+       </div>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
