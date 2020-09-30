@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template ininthe editor.
+-->
+<html>
+
+<head>
+  <title>Unicash</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/meusdados.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+  <script type="text/javascript"
+    src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ====================================
+                    Menu
+       ==================================== -->
+  <nav class="navbar navbar-default ">
+    <div class="container-fluid menu-top">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <p class="sr-only">Toggle navigation</p>
+          <p class="icon-bar"></p>
+          <p class="icon-bar"></p>
+          <p class="icon-bar"></p>
+        </button>
+        <a class="navbar-brand logo" href="#"><img src="img/logo-branca.png" alt=""></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
+        <div class="centerMenu">
+          <ul class="nav navbar-nav">
+            <li><a href="../web/dashboard.html">Início</a></li>
+            <li><a href="../web/dados.html">Meus dados</a></li>
+            <li><a href="#">Relatórios</a></li>
+          </ul>
+        </div>
+        <div class="profile">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="logout"><a href="#"><img src="img/logout.png" alt=""></a></li>
+            <li class="hello">Olá, Martin</li>
+            <li class="image"> <img src="img/martin.jpeg" alt=""></li>
+          </ul>
+        </div>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- ====================================
+                    Dados
+    ==================================== -->
+  <div class="container justify-content-center">
+
+    <div class="row title">
+      <div class=" col-md-12">
+        <h3>editar cadastro</h3>
+      </div>
+    </div>
+
+    <div class="form-profile">
+
+      <div class="row dados">
+        <form>
+          <div class="col-md-3 foto">
+            <img src="../web/img/martin.jpeg" id="img-profile">
+            <p>Clique para remover</p>
+          </div>
+
+          <div class="col-md-9 info">
+            <div class="form-row selfie">
+              <input type="text" class="form-control" id="nome" placeholder="Nome">
+              <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome">
+              <input type="text" class="form-control" id="mensal" placeholder="Receita Mensal">
+              <input type="text" class="form-control" id="data" placeholder="Data">
+              <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+          </div>
+
+
+
+        </form>
+      </div>
+
+      <div class="row bnt">
+        <div class="form-bnt col-md-12">
+          <button type="submit" id="editar" class="btn">editar</button>
+          <button type="submit" id="cancelar" class="btn">cancelar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>

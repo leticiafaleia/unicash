@@ -1,0 +1,159 @@
+body {
+  background: #F9F9F9 0% 0% no-repeat padding-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.title {
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.title h3 {
+  text-align: center;
+  font: normal normal 600 35px/47px Segoe UI;
+  letter-spacing: 0px;
+  color: #3D9798;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 0%;
+}
+
+.form-profile {
+  max-width: 100%;
+  background: #ECECEC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 4% 5% 5%;
+}
+
+.foto {
+  text-align: center;
+  padding: 0%;
+}
+
+#img-profile {
+  display: block;
+  max-width: 98%;
+  border-radius: 5%;
+  margin-bottom: 2%;
+  margin: auto;
+}
+
+form p {
+  margin-top: 2%;
+  font-family: normal normal normal 16px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgba(77, 76, 76, 0.308);
+}
+
+.info {
+  padding: 2%;
+  margin: auto 0;
+}
+
+.selfie {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5%;
+  margin-bottom: 2%;
+}
+
+#nome,
+#sobrenome,
+#mensal {
+  width: 32%;
+  margin: auto;
+}
+
+#data,
+#email {
+  width: 47%;
+  margin: 1.5% auto;
+}
+
+
+.form-control {
+  background: #F6F6F6 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  opacity: 1;
+  margin-bottom: 1%;
+}
+
+
+button {
+  background: #858585 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 251px;
+  height: 44px;
+  text-align: left;
+  font: normal normal 600 23px/31px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  float: right;
+  margin-right: 1.5%;
+  margin-top: -2%;
+}
+
+#editar{
+  background-color: #3D9798;
+}
+
+#cancelar:hover {
+  background-color: #790404;
+  color: #FFF !important;
+  transition: 0.6s;
+
+}
+#editar:hover {
+  background-color:#043c3d;
+  color: #FFF !important;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 790px) {
+
+  .dados {
+    margin: 3%;
+  }
+
+
+  .form-profile {
+    margin: 4% 4% 10%;
+    padding-bottom: 5%;
+  }
+
+  .selfie {
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin: auto
+  }
+
+  #nome,
+  #sobrenome,
+  #mensal,
+  #data,
+  #email {
+    width: 100%;
+    margin: 1% auto;
+  }
+
+  #img-profile {
+    max-width: 70%;
+  }
+
+  button {
+    max-width: 40%;
+    margin-top: 1%;
+    text-align: center;
+  }
+
+}
