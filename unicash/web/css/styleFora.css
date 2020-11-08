@@ -31,6 +31,7 @@ body {
     border-radius: 8px;
     margin: 140px 30px 30px 30px;
 }
+
 form {
     text-align: center;
 }
@@ -39,36 +40,46 @@ form {
     margin: 0 auto;
 }
 
-#firstName {
+#firstName, #userPassword, #userPasswordConfirm {
     padding: 6px;
     width: 100%;
     border-radius: 5px;
     border-style: none;
 }
 
-#userPassword {
-    padding: 6px;
+#userPassword, #userPasswordConfirm {
     margin-top: 10px;
-    width: 100%;
-    border-radius: 5px;
-    border-style: none;
-}
-
-#userPasswordConfirm {
-    padding: 6px;
-    margin-top: 10px;
-    width: 100%;
-    border-radius: 5px;
-    border-style: none;
 }
 
 #signUp {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#signUp li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+#signUp, #signUp li a {
+    color: white;
+}
+
+#signUp li a:hover {
+    color: #3D9798;
+}
+
+#signUpCadastrar, #recoverPass, #signIn {
+    color: white;
+    width: 75%;
+    border-style: none;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 2%;
     background-color: #3D9798;
-    color: white;
-    width: 75%;
     border-radius: 5px;
-    border-style: none;
 }
