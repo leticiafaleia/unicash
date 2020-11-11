@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +14,7 @@
         <div class="container-fluid logo">
             <div class="row">
                 <div class="col-md-3 logo-verde">
-                    <a href="index.html"><img src="../web/img/logo.png" id="logoVerde" width="250" height="50"></a>
+                    <a href="index.jsp"><img src="../web/img/logo.png" id="logoVerde" width="250" height="50"></a>
                 </div>
                 <div class="col-md-9"></div>
             </div>
@@ -23,15 +24,3 @@
             <div class="row">
                 <div class="col-md-9"></div>
                 <div class="col-md-3 form-login">
-
-                    <form>
-                        <img src="../web/img/logo-branca2.png" class="logoBranca" width="100px" height="100px">
-                        <input type="text" id="firstName" name="fname" placeholder="e-mail"><br>
-                        <button type="submit" id="recoverPass">recuperar senha</button>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
